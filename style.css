@@ -1,0 +1,184 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+#frame {
+    border: rgb(115, 159, 241) solid 1px;
+    width: 322px;
+    height: 500px;
+    position: relative;
+    background-color: rgb(184, 184, 176);
+    margin: 50px;
+    position: absolute;
+    top: -47px;
+    left: -47px;
+}
+
+table {
+    position: absolute;
+    top: 198px;
+    text-align: center;
+    width: 320px;   
+    height: 300;
+    border-spacing: 5px;
+    background-color: rgb(184, 184, 176);
+    border:darkgray;
+}
+
+th, td {
+    background: rgb(209,207,204);
+    background: linear-gradient(0deg, rgba(209,207,204,1) 18%, rgba(228,242,242,1) 100%);
+    width: 51px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.display {
+    width: 310;
+    height: 90px;
+    margin: 5px auto;
+    overflow-y: scroll;
+    background-color: rgb(184, 184, 176);
+}
+
+#upString { 
+    width: 290px;
+    height: 20px;
+    margin: 10px auto;
+    border: 1px rgb(187, 60, 176) dotted;   
+}
+
+.displaySecond {
+    width: 310px;
+    height: 95px;
+    border: 1px solid #000;
+    margin-left: 5px;
+    position: absolute;
+    top: 94px;
+    background-color: rgb(176, 201, 248);
+}
+
+.firstString {
+position: absolute;
+top:10px;
+left: 140px;
+}
+
+.secondString {
+    text-align: right;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+#bordLine {
+    width: 330px;
+    height: 510px;
+    border: 1px solid black;
+    margin: 50px;
+    background-color: rgb(165, 195, 250);
+}
+
+#frame_2 {
+    border: rgb(115, 159, 241) solid 1px;
+    width: 322px;
+    height: 500px;
+    position: relative;
+    background-color: rgb(184, 184, 176);
+    margin: 50px;
+    position: absolute;
+    top: -47px;
+    left: -47px;
+}
+
+table {
+    position: absolute;
+    top: 198px;
+    text-align: center;
+    width: 320px;   
+    height: 300;
+    border-spacing: 5px;
+    background-color: rgb(184, 184, 176);
+    border:darkgray;
+
+}
+
+.thStr {
+    background: rgb(209,207,204);
+    background: linear-gradient(0deg, rgba(209,207,204,1) 18%, rgba(228,242,242,1) 100%);
+    width: 51px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.display_2 {
+    width: 310;
+    height: 90px;
+    margin: 5px auto;
+    overflow-y: scroll;
+    background-color: rgb(184, 184, 176);
+}
+
+#upString_2 { 
+    width: 290px;
+    height: 320px;
+    margin: 10px auto;
+    border: 1px rgb(187, 60, 176) dotted;   
+}
+
+#midleString {
+    width: 290px;
+    height: 20px;
+    border: 1px rgb(187, 60, 176) dotted;
+    border-left: none ;
+    border-right: none;  
+}
+
+#bottomString {
+    width: 290px;
+    height: 20px;
+    border: 1px rgb(187, 60, 176) dotted;
+    border-left: none ;
+    border-right: none;  
+}
+
+.displaySecond_2 {
+    width: 310px;
+    height: 95px;
+    border: 1px solid #000;
+    margin-left: 5px;
+    position: absolute;
+    top: 94px;
+    background-color: rgb(176, 201, 248);
+}
+
+.secondString_2 {
+    text-align: right;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+#bordLine_2 {
+    width: 330px;
+    height: 510px;
+    border: 1px solid black;
+    background-color: rgb(165, 195, 250);
+    left: 629px;
+    position: absolute;
+    left: 504px;
+    top: 0px;
+}
+
+.thStr:hover {
+    border: inset black 1px;
+}
