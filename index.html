@@ -1,109 +1,119 @@
-
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <title>Calculator</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">    
+        <title>Document</title>
     </head>
     <body>
-        <div id="bordLine">
-            <div id="frame">
-                <div class="display">
-                    <p id="upString">59+203*(.6)+1800/10+22.8</p>
+        <div class="wrapper"></div>
+            <div class="top">
+                <div class="buttons_">
+                    <form>
+                        <button>Меню</button>
+                    </form>
                 </div>
-                <div class="displaySecond">
-                    <p class="firstString">5+2.3-1.006*6.009+5-</p>
-                    <p class="secondString">42.820645999999996</p>
+                <div class="buttons_">
+                    <form>
+                        <button>Магазин</button>
+                    </form>
                 </div>
-                <table border="1" >
-                    <tr>
-                        <th>&larr;</th>
-                        <th>CE</th>
-                        <th>C</th>
-                        <th>&plusmn;</th>
-                        <th>&radic;</th>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>/</td>
-                        <td>%</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>*</td>
-                        <td>1/x</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>-</td>
-                        <td rowspan="2">=</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">0</td>
-                        <td>.</td>
-                        <td>+</td>
-                    </tr>
-                </table>
+                <div class="buttons_">
+                    <form action="#">
+                        <button>Контакты</button>
+                    </form>
+                </div>
+                <div class="buttons_">
+                    <form action="#">
+                        <button>Партнеры</button>
+                    </form>
+                </div>
+                <div class="buttons_">
+                    <form action="#">
+                        <button>Сертификаты</button>
+                    </form>
+                </div>
+                <div class="buttons_">
+                    <form action="#">
+                        <button>Галерея</button>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div id="bordLine_2">
-            <div id="frame_2">
-                <div class="display_2">
-                    <div id="upString_2">
-                        <p>5+2.3-1.006*6.009+5</p>
-                        <p>-42.820645999999996</p>
-                        <div>
-                            <p id="midleString">8+9</p>
-                        <div id="bottomString">
-                            <p>sqrt(49)+sqrt(16)</p>
+            <header> 
+                <div id="logo"></div>
+                <h1>
+                    Victoria Sinkevich.
+                </h1>
+                <div class="login">
+                    <form action="#">
+                        <label for="">
+                            <input type="email" placeholder="Введите логин..." />
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="password"  placeholder="Введите пароль" />
+                        </label>
+                    </form>
+                    <button id="but">Ввход</button>
+                </div>
+            </header>
+            <article>
+                <div class="barAsideLeft">
+                    <div class="sevices">
+                        <p>Our services:</p>
+                    </div>
+                    <div class="animation">
+                        <div class="animation_">
+                            <p id="aniF">1. Hardware manicure</p>
                         </div>
+                        <div class="animation_">
+                            <p id="aniS">2. Hardware pedicure</p>
+                        </div>
+                        <div class="animation_">
+                            <p id="aniT">3. Eyebrow paintig</p>
+                        </div>
+                        <div class="animation_">
+                            <p id="ani_4">4. Combined manicure</p>
                         </div>
                     </div>
+                </div> 
+                <div class="articleMidle">
+                    <div class='art_1'> <p>Наша миссия: Всё, что делаем - мы делаем с душой,
+                       профессионализмом и искренним желанием, чтобы красивых и успешных людей было больше…
+                       </p>
+                    </div>
+                    <div class="img"></div>
+                    <div class="art_1"> 
+                        <p>На базе салона был открыт образовательный центр, специализирующийся 
+                         на подготовке специалистов по эстетической косметологии, массажу, маникюру и педикюру.
+                        </p>
+                    </div>
+                    <div id="img_2"></div>
+                    <div class="art_1">
+                        <p>О нашем профессионализме и высоком уровне обслуживания свидетельствует то, что многие компании 
+                            покупают подарочные сертификаты для своих сотрудников и фирм-партнёров. И мы рады видеть среди 
+                            наших гостей тех, кто стал постоянным клиентом и другом нашего салона.
+                        </p>
+                    </div>
                 </div>
-                <div class="displaySecond_2">
-                    <p class="secondString_2">11</p>
+                <div class="barAsideRight">
+                    <div class="reclam"></div>
+                    <div class="r">
+                        <p id="recl">Здесь могла бы быть ваша реклама</p>
+                    </div>
                 </div>
-                <table border="1" >
-                    <tr>
-                        <th class="thStr">&larr;</th>
-                        <th class="thStr">CE</th>
-                        <th class="thStr">C</th>
-                        <th class="thStr">&plusmn;</th>
-                        <th class="thStr">&radic;</th>
-                    </tr>
-                    <tr>
-                        <td class="thStr">7</td>
-                        <td class="thStr">8</td>
-                        <td class="thStr">9</td>
-                        <td class="thStr">/</td>
-                        <td class="thStr">%</td>
-                    </tr>
-                    <tr>
-                        <td class="thStr">4</td>
-                        <td class="thStr">5</td>
-                        <td class="thStr">6</td>
-                        <td class="thStr">*</td>
-                        <td class="thStr">1/x</td>
-                    </tr>
-                    <tr>
-                        <td class="thStr">1</td>
-                        <td class="thStr">2</td>
-                        <td class="thStr">3</td>
-                        <td class="thStr">-</td>
-                        <td class="thStr" rowspan="2">=</td>
-                    </tr>
-                    <tr>
-                        <td class="thStr" colspan="2">0</td>
-                        <td class="thStr">.</td>
-                        <td class="thStr">+</td>
-                    </tr>
-                </table>
-            </div>
+            </article>
+            <footer>
+                <div id="adress">
+                    <address>1600 Pennsylvania Avenue, Washington, D.C. 20500</address>
+                </div>
+                <div id="contactID">
+                    <p>tel: Velc +777 777 77 77</p>
+                </div>
+                <div id="massenger"></div>
+            </footer>
         </div>
     </body>
 </html>
