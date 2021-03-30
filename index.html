@@ -10,100 +10,46 @@
                 <div class="display">
                     <p id="upString">59+203*(.6)+1800/10+22.8</p>
                 </div>
-                <div class="displaySecond">
-                    <p class="firstString">5+2.3-1.006*6.009+5-</p>
-                    <p class="secondString">42.820645999999996</p>
-                </div>
+                <form name="form">
+                    <input type="text" name="textview" id="inpt">
+                </form>
                 <table border="1" >
                     <tr>
-                        <th>&larr;</th>
-                        <th>CE</th>
-                        <th>C</th>
-                        <th>&plusmn;</th>
-                        <th>&radic;</th>
+                        <th><button onclick="cleanSymbol()">&larr;</button></th>
+                        <th><button onclick="clean()">CE</button></th>
+                        <th><button onclick="insert()">C</button></th>
+                        <th><button id="pls" onclick="plsmns()">&plusmn;</button></th>
+                        <th><button onclick="sqr()">&radic;</button></th>
                     </tr>
                     <tr>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>/</td>
-                        <td>%</td>
+                        <td><button onclick="insert('7')">7</button></td>
+                        <td><button onclick="insert('8')">8</button></td>
+                        <td><button onclick="insert('9')">9</button></td>
+                        <td><button onclick="insert('/')">/</button></td>
+                        <td><button onclick="insert('(')">(</button></td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>*</td>
-                        <td>1/x</td>
+                        <td><button onclick="insert('4')">4</button></td>
+                        <td><button onclick="insert('5')">5</button></td>
+                        <td><button onclick="insert('6')">6</button></td>
+                        <td><button onclick="insert('*')">*</button></td>
+                        <td><button onclick="insert(')')">)</button></td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>-</td>
-                        <td rowspan="2">=</td>
+                        <td><button onclick="insert('1')">1</button></td>
+                        <td><button onclick="insert('2')">2</button></td>
+                        <td><button onclick="insert('3')">3</button></td>
+                        <td><button onclick="insert('-')">-</button></td>
+                        <td rowspan="2"><button onclick="equal()">=</button></td>
                     </tr>
                     <tr>
-                        <td colspan="2">0</td>
-                        <td>.</td>
-                        <td>+</td>
+                        <td colspan="2"><button onclick="insert('0')">0</button></td>
+                        <td><button onclick="insert('.')">.</button></td>
+                        <td><button id="buttonPlus" onclick="insert('+')">+</button></td>
                     </tr>
                 </table>
             </div>
         </div>
-        <div id="bordLine_2">
-            <div id="frame_2">
-                <div class="display_2">
-                    <div id="upString_2">
-                        <p>5+2.3-1.006*6.009+5</p>
-                        <p>-42.820645999999996</p>
-                        <div>
-                            <p id="midleString">8+9</p>
-                        <div id="bottomString">
-                            <p>sqrt(49)+sqrt(16)</p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="displaySecond_2">
-                    <p class="secondString_2">11</p>
-                </div>
-                <table border="1" >
-                    <tr>
-                        <th class="thStr">&larr;</th>
-                        <th class="thStr">CE</th>
-                        <th class="thStr">C</th>
-                        <th class="thStr">&plusmn;</th>
-                        <th class="thStr">&radic;</th>
-                    </tr>
-                    <tr>
-                        <td class="thStr">7</td>
-                        <td class="thStr">8</td>
-                        <td class="thStr">9</td>
-                        <td class="thStr">/</td>
-                        <td class="thStr">%</td>
-                    </tr>
-                    <tr>
-                        <td class="thStr">4</td>
-                        <td class="thStr">5</td>
-                        <td class="thStr">6</td>
-                        <td class="thStr">*</td>
-                        <td class="thStr">1/x</td>
-                    </tr>
-                    <tr>
-                        <td class="thStr">1</td>
-                        <td class="thStr">2</td>
-                        <td class="thStr">3</td>
-                        <td class="thStr">-</td>
-                        <td class="thStr" rowspan="2">=</td>
-                    </tr>
-                    <tr>
-                        <td class="thStr" colspan="2">0</td>
-                        <td class="thStr">.</td>
-                        <td class="thStr">+</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+        <script src="./index.js"></script>
     </body>
 </html>
